@@ -21,7 +21,7 @@ public int subtraction() {
 public int addition() {
 	return a+b;
 }
-public String combine() {//Joining two Strings
+public String combine() {
 	return c+d;
 }
 	public static void main(String[] args) {
