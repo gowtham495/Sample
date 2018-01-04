@@ -23,7 +23,7 @@ public String combine() {
 }
 	public static void main(String[] args) {
 		Sub s1 = new Sub(5,3);
-		Sub s2 = new Sub("praveen","kumar");
+		Sub s2 = new Sub("Rajagopal"," K");
 System.out.println("Difference:"+s1.subtraction());
 System.out.println("Combine:"+s2.combine());
 	}
