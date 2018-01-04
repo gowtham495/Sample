@@ -18,6 +18,9 @@ public class Sub {
 public int subtraction() {
 	return a-b;
 }
+public int addition() {
+	return a+b;
+}
 public String combine() {
 	return c+d;
 }
@@ -25,6 +28,7 @@ public String combine() {
 		Sub s1 = new Sub(5,3);
 		Sub s2 = new Sub("Rajagopal",".K");
 System.out.println("Difference:"+s1.subtraction());
+System.out.println("Sum:"+s1.addition());
 System.out.println("Combine:"+s2.combine());
 	}
 
